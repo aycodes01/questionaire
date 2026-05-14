@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Choice Quiz - Professional Edition</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="quiz-container" id="quizContainer">
+        <div class="quiz-header">
+            <h1 class="quiz-title">Professional Knowledge Quiz</h1>
+            <p class="quiz-subtitle">Test your expertise with these challenging questions</p>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+        </div>
+
+        <div id="quizContent">
+            <div class="question-container" id="questionContainer"></div>
+            
+            <div class="controls">
+                <button class="btn btn-primary" id="nextBtn">Next Question</button>
+                <button class="btn btn-secondary hidden" id="restartBtn">Restart Quiz</button>
+            </div>
+        </div>
+
+        <div class="score-section hidden" id="scoreSection">
+            <div class="score" id="finalScore">0/5</div>
+            <p class="score-text" id="scoreText">Excellent work!</p>
+            <button class="btn btn-primary" id="restartFromScore">Take Quiz Again</button>
+            <a href="./home.html"><button class="btn btn-primary" >homepage</button></a>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
