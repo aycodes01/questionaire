@@ -186,21 +186,4 @@
             display: none;
         }
 
-        @media (max-width: 768px) {
-            .quiz-container {
-                padding: 30px 20px;
-                margin: 10px;
-            }
-            
-            .quiz-title {
-                font-size: 26px;
-            }
-            
-            .question-text {
-                font-size: 20px;
-            }
-            
-            .controls {
-                flex-direction: column;
-            }
-        }
+   
